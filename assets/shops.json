@@ -1,0 +1,40 @@
+// also not content patcher
+[
+  {
+    "Item": {
+      "Id": "(O){{ModId}}_PortableHole",
+      "ItemId": "(O){{ModId}}_PortableHole",
+      "AvailableStock": 1,
+      "AvailableStockLimit": "Player",
+      "Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_AcquiredHole"
+    },
+    "Shop": "ShadowShop",
+    "Before": "(T)ReturnScepter"
+  },
+  {
+    "Item": {
+      "Id": "(O){{ModId}}_AstralPylon",
+      "ItemId": "(O){{ModId}}_AstralPylon",
+      "TradeItemId": "CalicoEgg",
+      "TradeItemAmount": 300,
+      "AvailableStock": 1,
+      "AvailableStockLimit": "Player",
+      "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_AcquiredHole, !PLAYER_HAS_MAIL Current {{ModId}}_SpaceUpgrade"
+    },
+    "Shop": "DesertFestival_EggShop",
+    "After": "(O)279"
+  },
+  {
+    "Item": {
+      "Id": "(O){{ModId}}_DimensionalCoupling",
+      "ItemId": "(O){{ModId}}_DimensionalCoupling",
+      "TradeItemId": "(O)858",
+      "TradeItemAmount": 60,
+      "AvailableStock": 1,
+      "AvailableStockLimit": "Player",
+      "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_AcquiredHole, !PLAYER_HAS_MAIL Current {{ModId}}_DoorUpgrade"
+    },
+    "Shop": "QiGemShop",
+    "After": "TownKey"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "Name": "Portable Hole",
+  "Author": "ichortower",
+  "Description": "Adds a wondrous item that opens an extradimensional space.",
+  "Version": "1.0.0",
+  "UniqueID": "ichortower.PortableHole",
+  "EntryDll": "PortableHole.dll",
+  "MinimumApiVersion": "4.1.0",
+  "UpdateKeys": ["Nexus:29430", "GitHub:ichortower/PortableHole"],
+  "Dependencies": []
+}

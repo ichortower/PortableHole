@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="1" height="4" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="135">
+ <properties>
+  <property name="AmbientLight" value="80 80 80"/>
+  <property name="DefaultWarpLocation" value="3 5"/>
+ </properties>
+ <tileset firstgid="1" name="mine" tilewidth="16" tileheight="16" tilecount="288" columns="16">
+  <image source="Mines/mine.png" width="256" height="288"/>
+ </tileset>
+ <tileset firstgid="289" name="paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source="paths.png" width="64" height="256"/>
+ </tileset>
+ <layer id="1" name="Back" width="1" height="4">
+  <data encoding="csv">
+78,
+78,
+78,
+138
+</data>
+ </layer>
+ <layer id="2" name="Buildings" width="1" height="4">
+  <data encoding="csv">
+68,
+84,
+100,
+116
+</data>
+ </layer>
+ <layer id="3" name="Front" width="1" height="4">
+  <data encoding="csv">
+0,
+0,
+0,
+0
+</data>
+ </layer>
+ <layer id="8" name="Paths" width="1" height="4">
+  <data encoding="csv">
+0,
+0,
+0,
+0
+</data>
+ </layer>
+ <objectgroup id="4" name="Back"/>
+ <objectgroup id="5" name="Buildings"/>
+ <objectgroup id="6" name="Front"/>
+ <objectgroup id="7" name="Paths"/>
+</map>

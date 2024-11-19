@@ -1,0 +1,17 @@
+{
+  "HoleLocation.DisplayName": "Portable Hole #{0}",
+  "PortableHole.DisplayName": "Portable Hole",
+  "PortableHole.Description": "A shimmering, enchanted piece of fabric that opens a portal to a pocket dimension. Reusable.",
+  "AstralPylon.DisplayName": "Astral Pylon",
+  "AstralPylon.Description": "Strengthens the planar connection of your Portable Hole, increasing the size of the space inside.",
+  "DimensionalCoupling.DisplayName": "Dimensional Coupling",
+  "DimensionalCoupling.Description": "An anchoring device used when traveling between dimensions. Adds a second entrance to your Portable Hole.",
+
+  "gmcm.SecondDoorKey.name": "SecondDoorKey",
+  "gmcm.SecondDoorKey.tooltip": "Hold this key when placing your Portable Hole to open the secondary entrance instead of the main one. Only applicable when you have access to a second entrance.",
+  "gmcm.DoNotDisturb.name": "DoNotDisturb",
+  "gmcm.DoNotDisturb.tooltip": "Prevent other players from entering your hole.",
+  "DoNotDisturb.toast": "No entry: Do Not Disturb.",
+
+  "EOF": ""
+}

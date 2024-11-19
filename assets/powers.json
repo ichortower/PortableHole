@@ -1,0 +1,20 @@
+// reminder: these aren't real content patcher tokens. they're a cheap knockoff
+// that I implemented myself
+{
+  "{{ModId}}_AstralPylonPower": {
+    "DisplayName": "{{i18n:AstralPylon.DisplayName}}",
+    "Description": "{{i18n:AstralPylon.Description}}",
+    "TexturePath": "Mods/{{ModId}}/ObjectSpriteSheet",
+    "TexturePosition": { "X": 0, "Y": 16 },
+    "UnlockedCondition": "PLAYER_HAS_MAIL Current {{ModId}}_SpaceUpgrade",
+    "CustomFields": null
+  },
+  "{{ModId}}_DimensionalCouplingPower": {
+    "DisplayName": "{{i18n:DimensionalCoupling.DisplayName}}",
+    "Description": "{{i18n:DimensionalCoupling.Description}}",
+    "TexturePath": "Mods/{{ModId}}/ObjectSpriteSheet",
+    "TexturePosition": { "X": 16, "Y": 16 },
+    "UnlockedCondition": "PLAYER_HAS_MAIL Current {{ModId}}_DoorUpgrade",
+    "CustomFields": null
+  }
+}

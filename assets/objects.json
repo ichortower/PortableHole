@@ -1,0 +1,52 @@
+// reminder: these aren't real content patcher tokens. they're a cheap knockoff
+// that I implemented myself
+{
+  "{{ModId}}_PortableHole": {
+    "Name": "Portable Hole",
+    "DisplayName": "{{i18n:PortableHole.DisplayName}}",
+    "Description": "{{i18n:PortableHole.Description}}",
+    "Type": "Crafting",
+    "Category": 0,
+    "Texture": "Mods/{{ModId}}/ObjectSpriteSheet",
+    "SpriteIndex": 0,
+    "Price": 150000,
+    "Edibility": -300,
+    "CanBeGivenAsGift": false,
+    "CanBeTrashed": false,
+    "ContextTags": [
+      "prevent_loss_on_death"
+    ]
+  },
+  "{{ModId}}_AstralPylon": {
+    "Name": "Astral Pylon",
+    "DisplayName": "{{i18n:AstralPylon.DisplayName}}",
+    "Description": "{{i18n:AstralPylon.Description}}",
+    "Type": "Crafting",
+    "Category": 0,
+    "Texture": "Mods/{{ModId}}/ObjectSpriteSheet",
+    "SpriteIndex": 5,
+    "Price": 1,
+    "Edibility": -300,
+    "CanBeGivenAsGift": false,
+    "CanBeTrashed": false,
+    "ContextTags": [
+      "prevent_loss_on_death"
+    ]
+  },
+  "{{ModId}}_DimensionalCoupling": {
+    "Name": "Dimensional Coupling",
+    "DisplayName": "{{i18n:DimensionalCoupling.DisplayName}}",
+    "Description": "{{i18n:DimensionalCoupling.Description}}",
+    "Type": "Crafting",
+    "Category": 0,
+    "Texture": "Mods/{{ModId}}/ObjectSpriteSheet",
+    "SpriteIndex": 6,
+    "Price": 1,
+    "Edibility": -300,
+    "CanBeGivenAsGift": false,
+    "CanBeTrashed": false,
+    "ContextTags": [
+      "prevent_loss_on_death"
+    ]
+  }
+}

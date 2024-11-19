@@ -1,0 +1,17 @@
+{
+  "HoleLocation.DisplayName": "Puits portable #{0}",
+  "PortableHole.DisplayName": "Puits portable",
+  "PortableHole.Description": "Un morceau de tissu chatoyant et enchanté qui ouvre un portail vers une dimension de poche. Réutilisable.",
+  "AstralPylon.DisplayName": "Pylône astral",
+  "AstralPylon.Description": "Renforce la connexion planaire de votre puits portable, augmentant ainsi la taille de l'espace à l'intérieur.",
+  "DimensionalCoupling.DisplayName": "Couplage dimensionnel",
+  "DimensionalCoupling.Description": "Un dispositif d'ancrage utilisé lors des déplacements entre les dimensions. Ajoute une deuxième entrée à votre puits portable.",
+ 
+  "gmcm.SecondDoorKey.name": "Clé de la seconde porte",
+  "gmcm.SecondDoorKey.tooltip": "Ayez cette clé lorsque vous placez votre puits portable pour ouvrir l'entrée secondaire au lieu de la principale. Applicable uniquement lorsque vous avez accès à une deuxième entrée.",
+  "gmcm.DoNotDisturb.name": "Ne pas déranger",
+  "gmcm.DoNotDisturb.tooltip": "Empêche les autres joueurs d'entrer dans votre puits.",
+  "DoNotDisturb.toast": "Aucune entrée autorisée : Ne pas déranger.",
+ 
+  "EOF": ""
+}

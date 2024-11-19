@@ -48,7 +48,7 @@ the arrival of a new day will do that.
 Do not attempt to trap other players in your hole by leaving (closing) it while
 they are inside; the exit will continue to work for them and place them where
 they entered. However, if you move the portal somewhere else before they leave,
-they will emerge at the new location, which you may find convenient.
+they will emerge at the new location, a side effect you may find convenient.
 
 
 ## Upgrades
@@ -60,14 +60,14 @@ you have already acquired a portable hole. The locations are spoilered here, if
 you would like to enjoy the thrill of discovery.
 
 <details>
-<summary>The **Astral Pylon** can be bought from...</summary>
+<summary>The <b>Astral Pylon</b> can be bought from...</summary>
 the Shadow Vendor at the Desert Festival, for 300 calico eggs.
 </details>
 
 It increases the available space inside your hole.
 
 <details>
-<summary>The **Dimensional Coupling** can be bought from...</summary>
+<summary>The <b>Dimensional Coupling</b> can be bought from...</summary>
 the Qi Gem shop in Mr. Qi's Walnut Room, for 60 Qi Gems.
 </details>
 

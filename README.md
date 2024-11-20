@@ -15,6 +15,12 @@ your chests and so on manually, so to me it doesn't feel too cheaty. And
 besides, you have to pay for it!
 
 
+## Translation Credits
+
+- French: [vin163](https://next.nexusmods.com/profile/vin163?gameId=1303)
+  (Nexus)
+
+
 ## Requirements
 
 - Stardew Valley 1.6.14+

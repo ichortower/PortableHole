@@ -2,7 +2,7 @@
   "Name": "Portable Hole",
   "Author": "ichortower",
   "Description": "Adds a wondrous item that opens an extradimensional space.",
-  "Version": "1.0.0",
+  "Version": "1.0.1",
   "UniqueID": "ichortower.PortableHole",
   "EntryDll": "PortableHole.dll",
   "MinimumApiVersion": "4.1.0",

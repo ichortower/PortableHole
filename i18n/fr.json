@@ -1,0 +1,17 @@
+{
+  "HoleLocation.DisplayName": "Trou portable #{0}",
+  "PortableHole.DisplayName": "Trou portable",
+  "PortableHole.Description": "Un morceau de tissu chatoyant et enchanté qui ouvre un portail vers une dimension de poche. Réutilisable.",
+  "AstralPylon.DisplayName": "Pylône astral",
+  "AstralPylon.Description": "Renforce la connexion planaire de votre trou portable, augmentant ainsi la taille de l'espace à l'intérieur.",
+  "DimensionalCoupling.DisplayName": "Couplage dimensionnel",
+  "DimensionalCoupling.Description": "Un dispositif d'ancrage utilisé lors des déplacements entre les dimensions. Ajoute une deuxième entrée à votre trou portable.",
+ 
+  "gmcm.SecondDoorKey.name": "Clé de la seconde porte",
+  "gmcm.SecondDoorKey.tooltip": "Ayez cette clé lorsque vous placez votre trou portable pour ouvrir l'entrée secondaire au lieu de la principale. Applicable uniquement lorsque vous avez accès à une deuxième entrée.",
+  "gmcm.DoNotDisturb.name": "Ne pas déranger",
+  "gmcm.DoNotDisturb.tooltip": "Empêche les autres joueurs d'entrer dans votre trou.",
+  "DoNotDisturb.toast": "Aucune entrée autorisée : Ne pas déranger.",
+ 
+  "EOF": ""
+}

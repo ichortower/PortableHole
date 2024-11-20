@@ -246,7 +246,7 @@ namespace ichortower.PortableHole
             int xval = 3;
             if (index == 2) {
                 Farmer owner = (uid == player.UniqueMultiplayerID
-                        ? player : GetFarmerFromUid(uid));
+                        ? player : Game1.GetPlayer(uid));
                 xval += (owner.mailReceived.Contains(PortableHole.MailSpaceId) ? 5 : 3);
             }
             Game1.warpFarmer(req, tileX:xval, tileY:5,
@@ -318,7 +318,7 @@ namespace ichortower.PortableHole
 
         public static GameLocation CreateHoleFor(long farmerUniqueId)
         {
-            return CreateHoleFor(GetFarmerFromUid(farmerUniqueId));
+            return CreateHoleFor(Game1.GetPlayer(farmerUniqueId));
         }
 
         /*
@@ -328,7 +328,7 @@ namespace ichortower.PortableHole
         public static void CanonizeMap(GameLocation hole)
         {
             long uid = PlayerIdForHole(hole);
-            Farmer owner = GetFarmerFromUid(uid);
+            Farmer owner = Game1.GetPlayer(uid);
             string size = (owner.mailReceived.Contains(PortableHole.MailSpaceId)
                     ? "Large" : "Small");
             string useMap = $"Maps/{PortableHole.ModId}_Hole{size}";
@@ -373,15 +373,6 @@ namespace ichortower.PortableHole
             HoleManager.DoNotDisturb[dnd.Key] = dnd.Value;
             PortableHole.instance.Helper.Multiplayer.SendMessage(
                     dnd, "DND", modIDs: new[] {PortableHole.ModId});
-        }
-
-        private static Farmer GetFarmerFromUid(long uid)
-        {
-            List<Farmer> whos = new(){Game1.player};
-            foreach (Farmer f in Game1.otherFarmers.Values) {
-                whos.Add(f);
-            }
-            return whos.Where(f => f.UniqueMultiplayerID == uid).ElementAt(0);
         }
 
         /*

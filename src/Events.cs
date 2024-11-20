@@ -129,6 +129,7 @@ namespace ichortower.PortableHole
         public static void OnGameLaunched(object sender, GameLaunchedEventArgs e)
         {
             GMCMIntegration.Setup();
+            SPUIntegration.Setup();
         }
 
         public static void OnLoadStageChanged(object sender, LoadStageChangedEventArgs e)

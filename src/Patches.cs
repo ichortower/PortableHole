@@ -287,11 +287,13 @@ namespace ichortower.PortableHole
                 GameLocation oldLocation,
                 GameLocation newLocation)
         {
-            if (newLocation.NameOrUniqueName.StartsWith(PortableHole.ModId)) {
+            if (newLocation != null && newLocation.NameOrUniqueName
+                    .StartsWith(PortableHole.ModId)) {
                 SmoothVolume(0.6f);
                 return false;
             }
-            if (oldLocation.NameOrUniqueName.StartsWith(PortableHole.ModId)) {
+            if (oldLocation != null && oldLocation.NameOrUniqueName
+                    .StartsWith(PortableHole.ModId)) {
                 SmoothVolume(1f);
                 if (HoleManager.WhereICameFrom.LocationId == newLocation.NameOrUniqueName) {
                     return false;

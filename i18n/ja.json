@@ -1,0 +1,17 @@
+{
+  "HoleLocation.DisplayName": "折りたたみホール#{0}",
+  "PortableHole.DisplayName": "折りたたみホール",
+  "PortableHole.Description": "異次元の空間への入り口を開く、キラキラした魔法の布。何度でも使える。",
+  "AstralPylon.DisplayName": "星体次元のロッド",
+  "AstralPylon.Description": "折りたたみホールの次元接続を強化し、空間の面積を拡大する。",
+  "DimensionalCoupling.DisplayName": "次元結合器",
+  "DimensionalCoupling.Description": "次元間旅行に使用するアンカー装置。折りたたみホールに裏口を追加する。",
+
+  "gmcm.SecondDoorKey.name": "裏口キー",
+  "gmcm.SecondDoorKey.tooltip": "このキーを押しながら折りたたみホールを使うと、普通の入り口より裏口を開く。裏口がないと意味はない。",
+  "gmcm.DoNotDisturb.name": "ごめんください",
+  "gmcm.DoNotDisturb.tooltip": "他のプレイヤーを自分のホールに入らないようにする。",
+  "DoNotDisturb.toast": "「ごめんください」のため立ち入り禁止。",
+
+  "EOF": ""
+}

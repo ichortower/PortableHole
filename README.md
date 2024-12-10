@@ -17,8 +17,9 @@ besides, you have to pay for it!
 
 ## Translation Credits
 
-- French: [vin163](https://next.nexusmods.com/profile/vin163?gameId=1303)
-  (Nexus)
+- Chinese: [mushymato](https://next.nexusmods.com/profile/mushymato?gameId=1303) (Nexus)
+- Japanese: ichortower
+- French: [vin163](https://next.nexusmods.com/profile/vin163?gameId=1303) (Nexus)
 
 
 ## Requirements

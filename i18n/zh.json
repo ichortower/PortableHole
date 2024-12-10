@@ -1,0 +1,15 @@
+{
+  "HoleLocation.DisplayName": "次元洞 #{0}",
+  "PortableHole.DisplayName": "次元洞",
+  "PortableHole.Description": "一块光泽四散的魔法布料，用于打开次元洞。可重复使用。",
+  "AstralPylon.DisplayName": "星界桅杆",
+  "AstralPylon.Description": "强化次元洞与异界的连接，增加洞内面积。",
+  "DimensionalCoupling.DisplayName": "次元耦合器",
+  "DimensionalCoupling.Description": "在不同维度之间移动时使用的固定装置。解锁次元洞的副洞口。",
+  "gmcm.SecondDoorKey.name": "副洞口按键",
+  "gmcm.SecondDoorKey.tooltip": "使用次元洞时，长按此键打开副洞口。获得副洞口后才可使用。",
+  "gmcm.DoNotDisturb.name": "请勿打扰",
+  "gmcm.DoNotDisturb.tooltip": "禁止其他玩家进入你的次元洞。",
+  "DoNotDisturb.toast": "禁止进入：请勿打扰。",
+  "EOF": ""
+}
